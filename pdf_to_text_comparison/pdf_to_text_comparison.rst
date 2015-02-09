@@ -71,16 +71,6 @@ Methodology:
             tess_length = len(tuple(WORDS.finditer(text)))
             tess.append((tess_length - pdftotext_length) / (pdftotext_length * 1.0) * 100)
 
-
-.. parsed-literal::
-
-    200
-    200
-    200
-    200
-    200
-
-
 .. code:: python
 
     data = pandas.DataFrame({'ghostscript': ghostscript, 'pdf2text': pdf2text, 'tika': tika, 'tess': tess})
@@ -174,7 +164,7 @@ Methodology:
 
 .. parsed-literal::
 
-    <matplotlib.text.Text at 0x10a72b1d0>
+    <matplotlib.text.Text at 0x107855190>
 
 
 
@@ -190,7 +180,7 @@ Methodology:
 
 .. parsed-literal::
 
-    <matplotlib.text.Text at 0x10a8857d0>
+    <matplotlib.text.Text at 0x1079c3450>
 
 
 
@@ -206,7 +196,7 @@ Methodology:
 
 .. parsed-literal::
 
-    <matplotlib.text.Text at 0x10a9e9710>
+    <matplotlib.text.Text at 0x107b5e410>
 
 
 
@@ -222,7 +212,7 @@ Methodology:
 
 .. parsed-literal::
 
-    <matplotlib.text.Text at 0x10ab44d10>
+    <matplotlib.text.Text at 0x107cb8a50>
 
 
 
